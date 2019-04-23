@@ -1,6 +1,7 @@
+# Asks for a favorite number, if the number in the list is not present,
+# it overwrites and displays a new favorite number.
 import json
 
-#favorite_number = input("Favorite number? ")
 filename = 'favorite_number.json'
 try:
     with open(filename) as f_obj:
@@ -12,7 +13,3 @@ except FileNotFoundError:
             json.dump(number, f_obj)
 else:
     print("I know your favorite numbers is " + number + "!")
-
-# with open(filename, 'w') as f_obj:
-#    json.dump(favorite_number, f_obj)
-#    print("I know your favorite numbers is " + favorite_number + "!")
