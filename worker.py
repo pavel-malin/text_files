@@ -1,3 +1,5 @@
+"""This is the class used in the survey program and the amount of people's
+earnings. Program name 'annual salary worker'."""
 class Employee():
     
     def __init__(self, first, last):
