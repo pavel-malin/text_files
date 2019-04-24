@@ -1,3 +1,5 @@
+"""Requwsts first name and last name. 
+The main functions are in the class woker"""
 from worker import Employee
 
 while True:
