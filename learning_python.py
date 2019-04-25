@@ -1,3 +1,5 @@
+"""Reading a file with the replacement of one and
+alignment to the right."""
 filename = 'learning_python.txt'
 
 with open(filename) as file_object:
