@@ -1,4 +1,4 @@
-
+"""Guest book. Record guests and text alignment."""
 filename = 'guest_book.txt'
 
 while True:
