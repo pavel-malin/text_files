@@ -1,3 +1,11 @@
+"""The file contains the full number pi.
+1- the delayed number pi and alignment output of the number on
+the right edge and shows the length of the string.
+2- alignment on all edges and removes all indents.
+3- output pi to 52 digits from the file.
+4- check if your date of birth is in pi."""
+
+# 1
 filename = 'pi_digits.txt'
 
 with open(filename) as file_object:
@@ -10,7 +18,7 @@ for line in lines:
 print(pi_string)
 print(len(pi_string))
 
-
+# 2
 filename = 'pi_30_digits.txt'
 
 with open(filename) as file_object:
@@ -23,6 +31,7 @@ for line in lines:
 print(pi_string)
 print(len(pi_string))
 
+# 3
 filename = 'pi_million_digits.txt'
 
 with open(filename) as file_object:
@@ -35,7 +44,7 @@ for line in lines:
 print(pi_string[:52])
 print(len(pi_string))
 
-
+# 4
 filename = 'pi_million_digits.txt'
 
 with open(filename) as file_object:
