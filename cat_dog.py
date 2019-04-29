@@ -1,3 +1,5 @@
+""" Displays a list of cats and dogs and 
+handles an error if the file does not exist."""
 def cat_dog(filename):
     try:
         with open(filename) as f_obj:
