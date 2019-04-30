@@ -1,4 +1,6 @@
+""""Tests functions about the city to perform work. (city_funcions.py)"""
 import unittest
+
 from city_funcions import get_formatted_city
 
 class CityTestCase(unittest.TestCase):
